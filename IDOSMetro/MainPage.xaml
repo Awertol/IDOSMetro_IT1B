@@ -19,6 +19,12 @@
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
+            <Label 
+                Text="Metro nyní jezdí"
+                FontSize="28"
+                HorizontalOptions="Center"
+                x:Name="labelCas"
+                Margin="0,50,0,0"/> <!--zleva, nahoře, vpravo, dole-->
 
         </VerticalStackLayout>
     </ScrollView>

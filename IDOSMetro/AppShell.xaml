@@ -11,16 +11,20 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <ShellContent
+        Title="Mapa stanic"
+        ContentTemplate="{DataTemplate local:MapaStanic}"
+        Route="MapaStanic" />
+    <ShellContent
         Title="Linka A"
         ContentTemplate="{DataTemplate local:StrankaA}"
         Route="StrankaA" />
     <ShellContent
         Title="Linka B"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:StrankaB}"
+        Route="StrankaB" />
     <ShellContent
         Title="Linka C"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:StrankaC}"
+        Route="StrankaC" />
 
 </Shell>
